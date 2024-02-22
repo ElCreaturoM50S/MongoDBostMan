@@ -1,0 +1,11 @@
+npm init --yes
+npm i express
+npm i nodemon -save-dev
+
+package json
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon app.js"
+  }
+
+npm i mongoose
